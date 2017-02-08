@@ -1,5 +1,55 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
+\documentclass[12pt,a4paper,fleqn]{article}
+
+%%% REPORT FOR SPIN WAVES EXCITATION BY ACOUSTIC PULSE
+
+\usepackage{amsmath}               %AMSMath tools for flexible equations
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{subfig} % remplace subfigure
+%\usepackage[utf8x]{inputenc} 
+\usepackage[latin1]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage{multirow}
+\usepackage[section]{placeins}
+\usepackage{subfig} % remplace subfigure
+% \usepackage{pdfpages} % pour inserer des pdfs
+\usepackage{setspace}
+\onehalfspacing
+%\doublespacing
+
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\DeclareTextSymbol{\degre}{T1}{6}
+
 \begin{document}
-(Type your content here.)
+	
+	
+\begin{center}
+	{\bf\Large Report~\MakeUppercase{\romannumeral 3}: Ultrafast Lattice Deformation - Determination of the thermal conductivity and the thermal resistance}\\
+	%{\bf\Large Preliminary investigations.}\\
+	\vspace{0.4cm}
+	{\large Valentin \textsc{Besse}\footnote{Author of the report}, Peter \textsc{Gaal}, Mathias \textsc{Sanders}, Vasily \textsc{Temnov}}\\
+	\vspace{0.6cm}
+	{\large January 31, 2017}
+	%{\large \today}
+\end{center}
+\vspace{0.1cm}
+
+\begin{abstract}
+	{\noindent In this report, we present the surface deformation curve as a function of time.
+	This curve correspond to the experimental data once we remove the surface acoustic wave and background.
+	We calculate the thermal diffusion in the bi-layer sample as a function of time for different values of the first layer's thermal conductivity and the interfacial thermal resistance.
+	We determined the values of these two parameters that correspond to the curve which reproduce the experimental curve decay.
+	This estimation is achieved visually.}
+\end{abstract}
+
+\section{Version}
+
+\begin{itemize}
+	\item V. 0.1: January 24, 2017. Creation of the file
+	\item V. 0.2: January 30, 2017.
+\end{itemize}
+
 \end{document}
